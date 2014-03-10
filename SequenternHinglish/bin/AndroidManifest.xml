@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitk.geo.hinglish"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk 
+        android:minSdkVersion="8"
+        android:targetSdkVersion="12"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:icon="@drawable/logo"
+        android:label="Sequentern Hinglish"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.iitk.geo.GeometryActivity" 
+            android:screenOrientation="landscape">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iitk.geo.Instruction"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.SelectLevel"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.LearnShapes"
+            android:screenOrientation="landscape">
+        </activity>
+         <activity android:name="com.iitk.geo.ShapeToShape"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.NameToShape"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.ShapeToName"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.LevelEasy"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.LevelMedium"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.LevelHard"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.geo.GameOver"
+            android:screenOrientation="landscape">
+        </activity>
+        
+        <activity android:name="com.iitk.report.DisplayRecord"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+</manifest>
