@@ -28,7 +28,6 @@ public class GameOver extends Activity implements OnClickListener
         
         View exit = findViewById(R.id.exit);
         exit.setOnClickListener(this);
-        System.out.println();
     }
     public void onClick(View v) 
     {
